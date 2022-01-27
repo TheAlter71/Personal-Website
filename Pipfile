@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+asgiref = "==3.4.1"
+boto3 = "==1.20.37"
+botocore = "==1.23.37"
+django-filter = "==21.1"
+django-storages = "==1.12.3"
+gunicorn = "==20.1.0"
+jmespath = "==0.10.0"
+python-dateutil = "==2.8.2"
+s3transfer = "==0.5.0"
+six = "==1.16.0"
+sqlparse = "==0.4.2"
+tzdata = "==2021.5"
+urllib3 = "==1.26.8"
+whitenoise = "==5.3.0"
+Django = "==4.0.1"
+Pillow = "==9.0.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
